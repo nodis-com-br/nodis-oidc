@@ -7,7 +7,7 @@ return {
     introspection_endpoint = { type = "string", required = false },
     timeout = { type = "number", required = false },
     introspection_endpoint_auth_method = { type = "string", required = false },
-    bearer_only = { type = "string", required = true, default = "no" },
+    bearer_only = { type = "boolean", required = true, default = false },
     realm = { type = "string", required = true, default = "kong" },
     redirect_uri_path = { type = "string" },
     scope = { type = "string", required = true, default = "openid" },
