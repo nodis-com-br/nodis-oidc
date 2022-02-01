@@ -1,8 +1,8 @@
 local BasePlugin = require "kong.plugins.base_plugin"
 local OidcHandler = BasePlugin:extend()
-local utils = require("kong.plugins.oidc.utils")
-local filter = require("kong.plugins.oidc.filter")
-local session = require("kong.plugins.oidc.session")
+local utils = require("kong.plugins.nodis-oidc.utils")
+local filter = require("kong.plugins.nodis-oidc.filter")
+local session = require("kong.plugins.nodis-oidc.session")
 
 OidcHandler.PRIORITY = 1000
 
