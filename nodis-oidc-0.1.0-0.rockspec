@@ -1,7 +1,7 @@
 package = "nodis-oidc"
 version = "0.1.0-0"
 source = {
-    url = "https://github.com/nodis-com-br/github-auth.git",
+    url = "https://github.com/nodis-com-br/nodis-oidc.git",
     dir = "nodis-oidc"
 }
 description = {
